@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+}
+
+.container > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(94, 68, 68);
+    font-size: 28px;
+    text-align: center;
+}
+
+#color-input {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 auto; 
+}
+
+#copy-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.input-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 15px;
+}
+
+.change-button {
+    width:250px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+background-color: black;
+color: white;
+font-size: medium;
+}
